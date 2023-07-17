@@ -53,7 +53,7 @@ export default function Skills() {
             <Tabs
                 value={value}
                 onChange={handleChange}
-                aria-label="wrapped label tabs example"
+                aria-label="skills tabs"
                 centered={true}
                 variant="fullWidth"
             >

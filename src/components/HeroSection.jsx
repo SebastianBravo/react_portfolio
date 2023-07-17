@@ -17,7 +17,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 5 }}>
+    <Container maxWidth="lg" sx={{ mt: 15 }}>
       <Grid container spacing={2}>
         <Grid item xs={8}>
           {/* add a h1, h2, p, and two buttons to the grid item with margin and padding between them */}
@@ -27,12 +27,13 @@ function HeroSection() {
             </Typography>
           </Box>  
           <Box sx={{ mt: 2 }}>
-            <Typography variant="h6" sx={{ fontFamily: "Rubik" }}>
-              I'm <span ref={textRef}></span>
+            <Typography display="inline" variant="h6" sx={{ fontFamily: "Rubik" }}>
+              I'm {" "}
             </Typography>
+            <Typography display="inline" variant="h6" color="#24697e" ref={textRef}></Typography>
           </Box>
           <Box sx={{ mt: 2 }}>
-            <Typography variant="body1" sx={{ fontFamily: "Rubik" }}>
+            <Typography variant="body1" fontFamily="Rubik">
               Last semester student of Electronics Engineering with a keen
               interest in machine learning, signal processing, bioengineering,
               and computer vision. My biggest passion now lies in
@@ -43,16 +44,16 @@ function HeroSection() {
             </Typography>
           </Box>
           <Box sx={{ mt: 2 }}>
-            <Button variant="contained" sx={{ mr: 2 }}>
+            <Button variant="contained" sx={{ mr: 2, backgroundColor: "#24697e" }}>
               Download CV
             </Button>
-            <Button variant="contained">Contact</Button>
+            <Button variant="contained" sx={{ backgroundColor: "#24697e" }}>Contact</Button>
           </Box>
         </Grid>
         <Grid item xs={4}>
           {/* Add image that fills the grid item and doesnt overflow from the  and has a height of 30% and is centered*/}
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <img src={heroImg} alt="Hero image" width="60%"/>
+          <Box sx={{ display: "flex", justifyContent: "center"}}>
+            <img src={heroImg} alt="Hero image" width="60%"/> 
           </Box>
         </Grid>
       </Grid>

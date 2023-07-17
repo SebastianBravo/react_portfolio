@@ -24,8 +24,8 @@ function App() {
         <ThemeProvider theme={darkTheme}>
           <CssBaseline />
           <Navbar />
-          <HeroSection />
-          <About />
+          <div id="Home"><HeroSection /></div> 
+          <div id="About"><About /></div>
           {/* <h1> Hello World </h1> */}
         </ThemeProvider>
       </div>

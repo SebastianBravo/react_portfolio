@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import AboutMeCard from "./AboutMeCard";
 import Education from "./Education";
 import Skills from "./Skills";
+import Awards from "./Awards";
 import {
     Container,
     Grid,
@@ -14,16 +15,17 @@ import {
     ListItemText,
     List,
 } from "@mui/material";
+import { Height } from "@mui/icons-material";
 
-function About() {
-    const [selectedIndex, setSelectedIndex] = useState(1);
+export default function About() {
+    const [selectedIndex, setSelectedIndex] = useState(0);
 
     const handleListItemClick = (event, index) => {
         setSelectedIndex(index);
     };
 
     return (
-        <Container maxWidth="lg" sx={{ mt: 15, mb:15}}>
+        <Container maxWidth="lg" sx={{ mt: 16, mb: 80}}>
             <Typography variant="h4" sx={{ fontFamily: "Rubik" }}>
                 About me
             </Typography>
@@ -71,10 +73,9 @@ function About() {
                     {selectedIndex === 0 && <AboutMeCard/>}
                     {selectedIndex === 1 && <Education/>}
                     {selectedIndex === 2 && <Skills/>}
+                    {selectedIndex === 3 && <Awards/>}
                 </Grid>
             </Grid>
         </Container>
     );
 }
-
-export default About;

@@ -42,7 +42,8 @@ export default function AboutMeCard() {
                             width: 151,
                             padding: 0,
                             margin: 2,
-                            backgroundColor: "grey.500",
+                            backgroundColor: "grey.800",
+                            borderRadius: 2,
                         }}
                         // alt="Live from space album cover"
                     />
@@ -50,10 +51,10 @@ export default function AboutMeCard() {
                 <Grid item xs={9}>
                     <Box sx={{ display: "flex", flexDirection: "column" }}>
                         <CardContent>
-                            <Typography variant="h5" component="div" sx={{ mb: 2 }}>
+                            <Typography variant="h5" component="div" sx={{ mb: 2 }} fontFamily="Lato">
                                 Juan Sebastián Bravo Santacruz
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" fontFamily="Lato">
                                 Last semester student of Electronics Engineering
                                 with a keen interest in machine learning,
                                 signal processing, bioengineering, and
