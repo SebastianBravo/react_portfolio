@@ -16,6 +16,14 @@ function HeroSection() {
     });
   }, []);
 
+  const onDownload = () => {
+    const link = document.createElement("a");
+    link.download = `CV_Juan_Sebastian_Bravo_Santacruz.pdf`;
+    link.href = "../public/CV_inglés.pdf";
+    console.log(link.href);
+    link.click();
+  };
+
   return (
     <Container maxWidth="lg" sx={{ mt: 15 }}>
       <Grid container spacing={2}>
@@ -30,7 +38,7 @@ function HeroSection() {
             <Typography display="inline" variant="h5" sx={{ fontFamily: "Rubik" }}>
               I'm {" "}
             </Typography>
-            <Typography display="inline" variant="h5" color="primary" ref={textRef}></Typography>
+            <Typography display="inline" variant="h5" color="primary.dark" ref={textRef}></Typography>
           </Box>
           <Box sx={{ mt: 2 }}>
             <Typography variant="body1" fontFamily="Rubik">
@@ -44,10 +52,10 @@ function HeroSection() {
             </Typography>
           </Box>
           <Box sx={{ mt: 2 }}>
-            <Button variant="contained" sx={{ mr: 2}}>
-              Download CV
+            <Button variant="contained" onClick={onDownload} sx={{ mr: 2, backgroundColor: "primary.dark"}}>
+                Download CV
             </Button>
-            <Button variant="contained">Contact</Button>
+            <Button variant="contained"sx={{ backgroundColor: "primary.dark" }} >Contact</Button>
           </Box>
         </Grid>
         <Grid item xs={4}>
