@@ -27,10 +27,10 @@ function HeroSection() {
             </Typography>
           </Box>  
           <Box sx={{ mt: 2 }}>
-            <Typography display="inline" variant="h6" sx={{ fontFamily: "Rubik" }}>
+            <Typography display="inline" variant="h5" sx={{ fontFamily: "Rubik" }}>
               I'm {" "}
             </Typography>
-            <Typography display="inline" variant="h6" color="#24697e" ref={textRef}></Typography>
+            <Typography display="inline" variant="h5" color="primary" ref={textRef}></Typography>
           </Box>
           <Box sx={{ mt: 2 }}>
             <Typography variant="body1" fontFamily="Rubik">
@@ -44,10 +44,10 @@ function HeroSection() {
             </Typography>
           </Box>
           <Box sx={{ mt: 2 }}>
-            <Button variant="contained" sx={{ mr: 2, backgroundColor: "#24697e" }}>
+            <Button variant="contained" sx={{ mr: 2}}>
               Download CV
             </Button>
-            <Button variant="contained" sx={{ backgroundColor: "#24697e" }}>Contact</Button>
+            <Button variant="contained">Contact</Button>
           </Box>
         </Grid>
         <Grid item xs={4}>
