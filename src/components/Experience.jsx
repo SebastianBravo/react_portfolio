@@ -18,7 +18,7 @@ import {
 
 export default function Experience() {
     return (
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" sx={{ pt:7 }}>
             <Typography variant="h4" sx={{ fontFamily: "Rubik", mb: 5 }}>
                 Experience
             </Typography>

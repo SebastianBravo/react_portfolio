@@ -18,7 +18,7 @@ function HeroSection() {
     const onDownload = () => {
         const link = document.createElement("a");
         link.download = `CV_Juan_Sebastian_Bravo_Santacruz.pdf`;
-        link.href = "/CV_inglés.pdf";
+        link.href = "/CV_Inglés.pdf?url";
         console.log(link.href);
         link.click();
     };

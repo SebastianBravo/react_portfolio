@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -45,6 +46,7 @@ function App() {
             <div id="Home"><HeroSection /></div> 
             <div id="About"><About /></div>
             <div id="Experience"><Experience /></div>
+            {/* <div id="Projects"><Projects /></div> */}
             {/* <h1> Hello World </h1> */}
         </ThemeProvider>
       </div>
