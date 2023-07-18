@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import CardImg from "../assets/images/foto.png";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 import {
     Card,
     CardMedia,
@@ -51,30 +51,55 @@ export default function AboutMeCard() {
                 <Grid item xs={9}>
                     <Box sx={{ display: "flex", flexDirection: "column" }}>
                         <CardContent>
-                            <Typography variant="h5" component="div" sx={{ mb: 2 }} fontFamily="Lato">
+                            <Typography
+                                variant="h5"
+                                component="div"
+                                sx={{ mb: 2 }}
+                                fontFamily="Lato"
+                            >
                                 Juan Sebastián Bravo Santacruz
                             </Typography>
-                            <Typography variant="body2" color="text.secondary" fontFamily="Lato">
-                                Last semester student of Electronics Engineering
-                                with a keen interest in machine learning,
-                                signal processing, bioengineering, and
-                                computer vision. My biggest passion now lies in
-                                neuroengineering, especially neuroimaging and
-                                Signal Processing. I have experienceworking with
-                                Python modules such as TensorFlow,
-                                scikit-learn, and PyTorch, along with knowledge
-                                of machine learning algorithms and deep
-                                learning.
+                            <Typography
+                                variant="body2"
+                                color="text.secondary"
+                                fontFamily="Lato"
+                            >
+                                Electronics Engineering student, with a strong
+                                academic background in machine learning, signal
+                                processing and computer vision. Passionate about
+                                Machine learning, specially image processing and
+                                generative AI. Eager to enhance programming
+                                skills and contribute to projects in recommender
+                                systems, ranking systems, image processing, and
+                                other focus areas with a basic understanding of
+                                statistics and hands-on experience in
+                                exploratory data analysis.
                             </Typography>
                         </CardContent>
-                        <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-                            <IconButton target="_blank" href="https://github.com/SebastianBravo">
+                        <Box
+                            sx={{
+                                display: "flex",
+                                alignItems: "center",
+                                pl: 1,
+                                pb: 1,
+                            }}
+                        >
+                            <IconButton
+                                target="_blank"
+                                href="https://github.com/SebastianBravo"
+                            >
                                 <GitHubIcon />
-                            </IconButton> 
-                            <IconButton target="_blank" href="https://www.linkedin.com/in/juan-sebasti%C3%A1n-bravo-santacruz-171625232">
+                            </IconButton>
+                            <IconButton
+                                target="_blank"
+                                href="https://www.linkedin.com/in/juan-sebasti%C3%A1n-bravo-santacruz-171625232"
+                            >
                                 <LinkedInIcon />
                             </IconButton>
-                            <IconButton target="_blank" href="mailto:juan.sebastian.bravo@outlook.com">
+                            <IconButton
+                                target="_blank"
+                                href="mailto:juan.sebastian.bravo@outlook.com"
+                            >
                                 <EmailIcon />
                             </IconButton>
                         </Box>
