@@ -5,6 +5,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import WorkIcon from "@mui/icons-material/Work";
 import {
     Typography,
     Container,
@@ -22,7 +23,7 @@ export default function Experience() {
                 Experience
             </Typography>
             <Box display="flex" justifyContent="center" alignItems="center">
-                <Paper elevation={2} sx={{ p: 2, maxWidth: "md"}}>
+                <Paper elevation={2} sx={{ p: 2, maxWidth: "md" }}>
                     <Timeline
                         sx={{
                             [`& .${timelineItemClasses.root}:before`]: {
@@ -33,7 +34,9 @@ export default function Experience() {
                     >
                         <TimelineItem>
                             <TimelineSeparator>
-                                <TimelineDot />
+                                <TimelineDot color="primary">
+                                    <WorkIcon />
+                                </TimelineDot>
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
@@ -111,7 +114,9 @@ export default function Experience() {
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineSeparator>
-                                <TimelineDot />
+                                <TimelineDot color="primary">
+                                    <WorkIcon />
+                                </TimelineDot>
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
