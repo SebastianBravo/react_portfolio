@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import CV from "../assets/CV_Juan_Sebastian_Bravo_Santacruz.pdf"
 import heroImg from "../assets/images/foto.png";
 import { Container, Grid, Button, Paper, Box, Typography } from "@mui/material";
 import { init } from "ityped";
@@ -18,7 +19,7 @@ function HeroSection() {
     const onDownload = () => {
         const link = document.createElement("a");
         link.download = `CV_Juan_Sebastian_Bravo_Santacruz.pdf`;
-        link.href = "/CV_Inglés.pdf?url";
+        link.href = {CV};
         console.log(link.href);
         link.click();
     };
