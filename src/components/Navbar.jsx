@@ -15,9 +15,9 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Block } from '@mui/icons-material';
 
-const pages = ["Home", "About", "Expreience", "Projects", "Contact"];
+const pages = ["Home", "About", "Experience", "Projects", "Contact"];
 
-function Navbar() {
+export default function Navbar() {
     const handleClickScroll = (id) => {
         let element = document.getElementById(id);
         if (element) {
@@ -47,24 +47,6 @@ function Navbar() {
                     </Box>
                 </Toolbar>
             </Container>
-            {/* <Toolbar>
-                <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-                <IconButton
-                    size="large"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 2 }}
-                >
-                    <MenuIcon />
-                </IconButton>
-                
-                <Typography component="div" sx={{ flexGrow: 1 }}>
-
-                </Typography>
-            </Toolbar> */}
         </AppBar>
     );
 }
-
-export default Navbar;
