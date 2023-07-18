@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
+import Experience from './components/Experience'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -43,6 +44,7 @@ function App() {
             <Navbar />
             <div id="Home"><HeroSection /></div> 
             <div id="About"><About /></div>
+            <div id="Experience"><Experience /></div>
             {/* <h1> Hello World </h1> */}
         </ThemeProvider>
       </div>

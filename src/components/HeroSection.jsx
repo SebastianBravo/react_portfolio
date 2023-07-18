@@ -19,7 +19,7 @@ function HeroSection() {
   const onDownload = () => {
     const link = document.createElement("a");
     link.download = `CV_Juan_Sebastian_Bravo_Santacruz.pdf`;
-    link.href = "../public/CV_inglés.pdf";
+    link.href = "/CV_inglés.pdf";
     console.log(link.href);
     link.click();
   };
@@ -61,7 +61,7 @@ function HeroSection() {
         <Grid item xs={4}>
           {/* Add image that fills the grid item and doesnt overflow from the  and has a height of 30% and is centered*/}
           <Box sx={{ display: "flex", justifyContent: "center"}}>
-            <img src={heroImg} alt="Hero image" width="60%"/> 
+            <img src={heroImg} alt="Hero image" width="60%" class="rounded_corners"/> 
           </Box>
         </Grid>
       </Grid>

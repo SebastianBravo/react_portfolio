@@ -25,7 +25,7 @@ export default function About() {
     };
 
     return (
-        <Container maxWidth="lg" sx={{ mt: 16, mb: 80}}>
+        <Container maxWidth="lg" sx={{ mt: 16, mb: 16}}>
             <Typography variant="h4" sx={{ fontFamily: "Rubik" }}>
                 About me
             </Typography>
