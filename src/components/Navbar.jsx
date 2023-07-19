@@ -15,6 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Block } from '@mui/icons-material';
 
+// const pages = ["Home", "About", "Experience", "Projects", "Contact"];
 const pages = ["Home", "About", "Experience"];
 
 export default function Navbar() {
