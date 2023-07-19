@@ -46,7 +46,7 @@ function App() {
             <div id="Home"><HeroSection /></div> 
             <div id="About"><About /></div>
             <div id="Experience"><Experience /></div>
-            {/* <div id="Projects"><Projects /></div> */}
+            <div id="Projects"><Projects /></div>
             {/* <h1> Hello World </h1> */}
         </ThemeProvider>
       </div>

@@ -19,7 +19,7 @@ function HeroSection() {
     const onDownload = () => {
         const link = document.createElement("a");
         link.download = `CV_Juan_Sebastian_Bravo_Santacruz.pdf`;
-        link.href = {CV};
+        link.href = "https://github.com/SebastianBravo/react_portfolio/blob/master/src/assets/CV_Juan_Sebastian_Bravo_Santacruz.pdf";
         console.log(link.href);
         link.click();
     };
@@ -74,6 +74,7 @@ function HeroSection() {
                         <Button
                             variant="contained"
                             sx={{ backgroundColor: "primary.dark" }}
+                            href="mailto:juan.sebastian.bravo@outlook.com"
                         >
                             Contact
                         </Button>
@@ -86,7 +87,7 @@ function HeroSection() {
                             src={heroImg}
                             alt="Hero image"
                             width="60%"
-                            class="rounded_corners"
+                            className="rounded_corners"
                         />
                     </Box>
                 </Grid>
