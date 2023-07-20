@@ -7,6 +7,7 @@ import {
     TableCell,
     TableBody,
     Paper,
+    Container,
 } from "@mui/material";
 
 function createRow(degree, tittle, institution, date) {
@@ -22,7 +23,8 @@ function createRow(degree, tittle, institution, date) {
 export default function Education() {
     return (
         <Paper elevation={2}>
-            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+            {/* Table to fit the paper size */}
+            <Table  aria-label="simple table">
                 <TableHead>
                     <TableRow sx={{backgroundColor: darkTheme.palette.action.selected}}>
                         <TableCell >Degree</TableCell>
@@ -45,6 +47,6 @@ export default function Education() {
                     ))}
                 </TableBody>
             </Table>
-        </Paper> 
+        </Paper>
     );
 }

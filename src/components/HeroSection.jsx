@@ -27,7 +27,7 @@ function HeroSection() {
     return (
         <Container maxWidth="lg" sx={{ mt: 15 }}>
             <Grid container spacing={2}>
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8} >
                     {/* add a h1, h2, p, and two buttons to the grid item with margin and padding between them */}
                     <Box>
                         <Typography variant="h4" sx={{ fontFamily: "Rubik" }}>
@@ -80,7 +80,7 @@ function HeroSection() {
                         </Button>
                     </Box>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} md={4}>
                     {/* Add image that fills the grid item and doesnt overflow from the  and has a height of 30% and is centered*/}
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
                         <img

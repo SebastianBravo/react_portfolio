@@ -28,7 +28,7 @@ export default function About() {
             </Typography>
 
             <Grid container spacing={2} sx={{ mt:5 }}>
-                <Grid item xs={4}>
+                <Grid item xs={12} md={4}>
                     <Paper elevation={2}>
                         <List>
                             <ListItemButton
@@ -66,7 +66,7 @@ export default function About() {
                         </List>
                     </Paper>
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8}>
                     {selectedIndex === 0 && <AboutMeCard/>}
                     {selectedIndex === 1 && <Education/>}
                     {selectedIndex === 2 && <Skills/>}

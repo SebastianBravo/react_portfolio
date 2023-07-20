@@ -7,17 +7,9 @@ import {
     Card,
     CardMedia,
     CardContent,
-    CardActions,
-    Container,
     Grid,
-    Button,
-    Paper,
     Box,
     Typography,
-    ListItem,
-    ListItemButton,
-    ListItemText,
-    List,
     IconButton,
 } from "@mui/material";
 
@@ -34,21 +26,25 @@ export default function AboutMeCard() {
     return (
         <Card>
             <Grid container spacing={2}>
-                <Grid item xs={3}>
+                <Grid item xs={4} md={3}>
                     <CardMedia
                         component="img"
                         image={CardImg}
                         sx={{
-                            width: 151,
+                            width: { md: 151 },
                             padding: 0,
                             margin: 2,
                             backgroundColor: "grey.800",
                             borderRadius: 2,
+                            // center vertically to de middle of the grid item
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
                         }}
                         // alt="Live from space album cover"
                     />
                 </Grid>
-                <Grid item xs={9}>
+                <Grid item xs={8} md={9}>
                     <Box sx={{ display: "flex", flexDirection: "column" }}>
                         <CardContent>
                             <Typography

@@ -78,7 +78,7 @@ export default function Awards() {
         >
             <Grid container spacing={2}>
                 {AwardsList.map((award, index) => (
-                    <Grid item xs={4} key={index}>
+                    <Grid item xs={6} md={4} key={index}>
                         <Paper elevation={2} sx={{ p: 1, backgroundColor: "grey.900" ,"&:hover": { backgroundColor: darkTheme.palette.action.hover }}}>
                             <Typography
                                 variant="subtitle2"
