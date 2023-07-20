@@ -22,9 +22,9 @@ function createRow(degree, tittle, institution, date) {
 
 export default function Education() {
     return (
-        <Paper elevation={2}>
+        <Paper elevation={2} sx={{width: '100%', overflowX: 'auto'}}>
             {/* Table to fit the paper size */}
-            <Table  aria-label="simple table">
+            <Table aria-label="simple table">
                 <TableHead>
                     <TableRow sx={{backgroundColor: darkTheme.palette.action.selected}}>
                         <TableCell >Degree</TableCell>

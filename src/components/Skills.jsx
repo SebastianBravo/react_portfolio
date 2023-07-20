@@ -55,7 +55,7 @@ export default function Skills() {
                 onChange={handleChange}
                 aria-label="skills tabs"
                 centered={true}
-                variant="fullWidth"
+                variant="scrollable"
             >
                 <Tab value="1" label="Programming Languages" />
                 <Tab value="2" label="Libraries" />

@@ -74,7 +74,7 @@ export default function Awards() {
     return (
         <Paper
             elevation={2}
-            sx={{ p: 2, backgroundColor: "primary"}}
+            sx={{ p: 2, backgroundColor: "primary", overflowY: 'auto', height: { xs: 400, md: "auto"} }}
         >
             <Grid container spacing={2}>
                 {AwardsList.map((award, index) => (
