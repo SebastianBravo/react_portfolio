@@ -21,6 +21,8 @@ const rows = [
     "Pontificia Universidad Javeriana",
     "2018-2023"
   ),
+  createRow("Course", "Generative AI Fundamentals", "Databricks", "2023"),
+  createRow("Course", "Lakehouse Fundamentals", "Databricks", "2023"),
   createRow(
     "Course",
     "Red Hat System Administration I (RH124)",
