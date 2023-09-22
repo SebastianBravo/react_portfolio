@@ -20,7 +20,7 @@ function HeroSection() {
     const link = document.createElement("a");
     link.download = `CV_Juan_Sebastian_Bravo_Santacruz.pdf`;
     link.href =
-      "https://sebastianbravo.github.io/react_portfolio/assets/CV_Juan_Sebastian_Bravo_Santacruz-3a57eb03.pdf";
+      "https://sebastianbravo.github.io/react_portfolio/assets/CV_Juan_Sebastian_Bravo_Santacruz-8d5a6c50.pdf";
     console.log(link.href);
     link.click();
   };
