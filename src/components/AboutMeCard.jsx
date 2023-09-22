@@ -60,7 +60,7 @@ export default function AboutMeCard() {
                 color="text.secondary"
                 fontFamily="Lato"
               >
-                Electronics Engineering student, with a strong academic
+                Electronics Engineer with a strong academic
                 background in machine learning, signal processing and computer
                 vision. Passionate about Machine learning, specially image
                 processing and generative AI. Eager to enhance programming

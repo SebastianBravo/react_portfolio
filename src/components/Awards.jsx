@@ -24,6 +24,21 @@ import {
 
 const AwardsList = [
   {
+    name: "Order of Academic Merit",
+    description: "Awarded for graduating with honors and with an excellent GPA: 4.57/5.00.",
+    institution: "Pontificia Universidad Javeriana",
+  },
+  {
+    name: "Honors Mention for Thesis Work",
+    description: "Awarded for excellent thesis work: 5.0/5.0.",
+    institution: "Pontificia Universidad Javeriana",
+  },
+  {
+    name: "José Gabriel Maldonado Maldonado, S.J. Award",
+    description: "Given for outstanding academic performance and exemplary commitment, behavior, and dedication to the Faculty and degree program.",
+    institution: "Pontificia Universidad Javeriana",
+  },
+  {
     name: "Academic Excellence 2018-3",
     description: "Awarded for GPA over 4.3.",
     institution: "Pontificia Universidad Javeriana",

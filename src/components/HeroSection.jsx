@@ -12,7 +12,7 @@ function HeroSection() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Juan Sebastián Bravo Santacruz", "a Data Scientist"],
+      strings: ["Juan Sebastián Bravo Santacruz", "a Data Scientist", "a Data Engineer"],
     });
   }, []);
 
@@ -52,7 +52,7 @@ function HeroSection() {
           </Box>
           <Box sx={{ mt: 2 }}>
             <Typography variant="body1" fontFamily="Rubik">
-              Electronics Engineering student, with a strong academic background
+              Electronics Engineer with a strong academic background
               in machine learning, signal processing and computer vision.
               Passionate about Machine learning, specially image processing and
               generative AI. I have practical experience in Python, using
